@@ -13,7 +13,7 @@ const InvestorSection = () => {
       return: "8-10%",
       risk: "Bajo",
       minInvestment: "$25,000",
-      liquidity: "45 días",
+      plazo: "45 días",
       color: "bg-blue-500"
     },
     {
@@ -21,16 +21,16 @@ const InvestorSection = () => {
       return: "11-14%",
       risk: "Medio",
       minInvestment: "$50,000",
-      liquidity: "30 días",
+      plazo: "30 días",
       color: "bg-finsmart-600",
       featured: true
     },
     {
-      title: "Plan Crecimiento",
+      title: "Plan Optimista",
       return: "15-18%",
       risk: "Medio-Alto",
       minInvestment: "$100,000",
-      liquidity: "60 días",
+      plazo: "60 días",
       color: "bg-purple-700"
     }
   ];
@@ -127,8 +127,8 @@ const InvestorSection = () => {
                   <span className="font-medium">{option.minInvestment}</span>
                 </li>
                 <li className="flex justify-between">
-                  <span className="text-gray-600">Liquidez:</span>
-                  <span className="font-medium">{option.liquidity}</span>
+                  <span className="text-gray-600">Plazo:</span>
+                  <span className="font-medium">{option.plazo}</span>
                 </li>
               </ul>
               <CTAButton 

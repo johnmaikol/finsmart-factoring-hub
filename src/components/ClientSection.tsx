@@ -119,14 +119,14 @@ const ClientSection = () => {
           <div className={`transition-all duration-700 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-8'}`}>
             <AnimatedCard className="relative bg-white rounded-xl overflow-hidden shadow-premium p-0">
               <div className="bg-gradient-to-r from-finsmart-700 to-finsmart-500 text-white px-6 py-4">
-                <h3 className="text-lg font-medium">Panel de Clientes</h3>
+                <h3 className="text-lg font-medium">Simulador</h3>
                 <p className="text-white/70 text-sm">Simulador de factoring</p>
               </div>
               <div className="p-6">
                 <div className="space-y-4">
                   <div className="premium-card p-4">
                     <h4 className="text-sm font-medium text-gray-500 mb-1">Monto de la factura</h4>
-                    <p className="text-2xl font-semibold">$100,000 MXN</p>
+                    <p className="text-2xl font-semibold">S/100,000 PEN</p>
                   </div>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="premium-card p-4">
@@ -140,12 +140,12 @@ const ClientSection = () => {
                   </div>
                   <div className="premium-card bg-finsmart-50 border border-finsmart-100 p-4">
                     <div className="flex justify-between items-center mb-2">
-                      <h4 className="text-sm font-medium text-gray-500">Anticipo inmediato</h4>
-                      <span className="text-xl font-semibold text-finsmart-600">$95,000 MXN</span>
+                      <h4 className="text-sm font-medium text-gray-500">Desembolso</h4>
+                      <span className="text-xl font-semibold text-finsmart-600">S/95,000 PEN</span>
                     </div>
                     <div className="flex justify-between items-center">
                       <h4 className="text-sm font-medium text-gray-500">Comisión</h4>
-                      <span className="text-lg font-medium text-finsmart-600">$2,500 MXN</span>
+                      <span className="text-lg font-medium text-finsmart-600">S/2,500 PEN</span>
                     </div>
                   </div>
                   <button className="w-full bg-finsmart-600 text-white py-3 rounded-lg font-medium hover:bg-finsmart-500 transition-colors">
