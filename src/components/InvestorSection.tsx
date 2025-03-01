@@ -12,7 +12,7 @@ const InvestorSection = () => {
       title: "Plan Conservador",
       return: "8-10%",
       risk: "Bajo",
-      minInvestment: "$25,000",
+      minInvestment: "S/.25,000",
       plazo: "45 días",
       color: "bg-blue-500"
     },
@@ -20,7 +20,7 @@ const InvestorSection = () => {
       title: "Plan Balanceado",
       return: "11-14%",
       risk: "Medio",
-      minInvestment: "$50,000",
+      minInvestment: "S/.50,000",
       plazo: "30 días",
       color: "bg-finsmart-600",
       featured: true
@@ -29,7 +29,7 @@ const InvestorSection = () => {
       title: "Plan Optimista",
       return: "15-18%",
       risk: "Medio-Alto",
-      minInvestment: "$100,000",
+      minInvestment: "S/.100,000",
       plazo: "60 días",
       color: "bg-purple-700"
     }
