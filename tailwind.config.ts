@@ -64,14 +64,14 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				finsmart: {
-					50: '#f5f7fa',
-					100: '#ebeef3',
-					200: '#d6dce6',
-					300: '#b3bece',
-					400: '#8E9196', // Neutral Gray
-					500: '#7E69AB', // Secondary Purple
-					600: '#9b87f5', // Primary Purple
-					700: '#1A1F2C', // Dark Purple
+					50: '#E6F3FF',
+					100: '#CCE7FF',
+					200: '#99CEFF',
+					300: '#66B5FF',
+					400: '#33A1F5', // Neutral Blue
+					500: '#0F86E0', // Secondary Blue
+					600: '#33C3F0', // Primary Light Blue
+					700: '#1A2E4C', // Dark Blue
 					800: '#101624',
 					900: '#0a0e19',
 				}
