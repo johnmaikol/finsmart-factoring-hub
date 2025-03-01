@@ -47,6 +47,11 @@ const Navigation = () => {
             to="/" 
             className="flex items-center"
           >
+            <img 
+              src="https://app.finsmart.pe/assets/logos/small.png" 
+              alt="Finsmart Logo" 
+              className="h-7 mr-2" 
+            />
             <span className="text-2xl font-bold bg-gradient-to-r from-finsmart-600 to-finsmart-500 bg-clip-text text-transparent">
               Finsmart
             </span>
